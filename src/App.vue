@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <teleport to='#portal-root'>
+    <Portal/>
+  </teleport>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Portal from './components/Portal.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Portal
   }
 }
 </script>
