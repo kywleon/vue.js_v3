@@ -1,19 +1,22 @@
 <template>
   <div>
-    <CreatePost />
-    <PostList />
+    <!-- <CreatePost />
+    <PostList /> -->
+    <TemplateRef />
   </div>
 </template>
 
 <script>
-import PostList from './components/PostList.vue'
-import CreatePost from './components/CreatePost.vue'
+// import PostList from './components/PostList.vue'
+// import CreatePost from './components/CreatePost.vue'
+import TemplateRef from './components/TemplateRef.vue'
 
 export default {
   name: 'App',
   components: {
-    PostList,
-    CreatePost
+    // PostList,
+    // CreatePost,
+    TemplateRef
   }
 }
 </script>
