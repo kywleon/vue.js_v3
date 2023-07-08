@@ -1,15 +1,15 @@
 <template>
   <div>
-    
+    <VModel />
   </div>
 </template>
 
 <script>
-
+import VModel from './Components/VModel.vue'
 export default {
   name: 'App',
   components: {
-    
+    VModel
   }
 }
 </script>
