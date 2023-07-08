@@ -1,15 +1,15 @@
 <template>
   <div>
-    
+    <Methods />
   </div>
 </template>
 
 <script>
-
+import Methods from './components/Methods.vue'
 export default {
   name: 'App',
   components: {
-    
+    Methods
   }
 }
 </script>
